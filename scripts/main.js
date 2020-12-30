@@ -36,7 +36,7 @@ menuToggle.addEventListener('click', () => {
     navOverlay.style.display = "initial";
 });
 // Hide
-[navClose, navOverlay, navListBottomItems, navListItems].forEach(el => {
+[navClose, navOverlay].forEach(el => {
     el.addEventListener('click', () => {
         navMenu.style.display = "none";
         navClose.style.display = "none";
