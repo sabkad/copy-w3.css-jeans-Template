@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+    crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Top menu on mobile screens -->
+    <header class="top-menu">
+        <h3 class="menu-logo">
+            LOGO
+        </h3>
+        <i class="fa fa-bars menu-toggle"></i>
+    </header>
+
+    <!-- Overlay for mobile sidebar -->
+    <div class="nav-overlay"></div>
+
+    <!-- Sidebar/ Menu -->
+    <nav class="nav-menu">
+        <h3 class="menu-logo">
+            LOGO
+        </h3>
+        <i class="fas fa-times nav-close-btn"></i>
+     
+        
+        <div class="nav-list">
+            <a href="#" class="nav-list-items">Shirts</a>
+            <a href="#" class="nav-list-items">Dresses</a>
+            <a href="#" class="nav-list-items select-jeans select-items">Jeans <i class="fas fa-sort-down"></i></a>
+
+            <div class="select-item-box active">
+                <a href="#" class="nav-list-items select-skinny select-items"><i class="fas fa-caret-right"></i> Skinny</a>
+                <a href="#" class="nav-list-items">Relaxed</a>
+                <a href="#" class="nav-list-items">Bootcut</a>
+                <a href="#" class="nav-list-items">Straight</a>
+            </div>
+
+            <a href="#" class="nav-list-items">Jackets</a>
+            <a href="#" class="nav-list-items">Gymwear</a>
+            <a href="#" class="nav-list-items">Blazers</a>
+            <a href="#" class="nav-list-items">Shoes</a>
+        </div>
+
+        <a href="#contact" class="nav-list-bottom">Contact</a>
+        <a href="#" class="nav-list-bottom" id="newsletter-link">Newsletter</a>
+        <a href="#subscribe" class="nav-list-bottom">Subscribe</a>
+
+    </nav>
+
+    <!-- Newsletter Modal -->
+    <div class="newsletter-box">
+    <div class="newsletter-text">
+        <h1>Newsletter</h1>
+        <i class="fas fa-times news-close-btn"></i>
+        <p>Join our mailing list to receive updates on new arrivals and special offers.</p>
+        <input type="emal" placeholder="Enter e-mail">
+        <button>Subscribe</button>
+    </div>
+</div>
+
+    <!-- Main content/ Right Column on a full screen -->
+    <main>
+        <!-- Top header -->
+        <header class="top-header">
+            <p>Jeans</p>
+
+            <div class="header-icons">
+                <i class="fa fa-shopping-cart"></i>
+                <i class="fa fa-search"></i>
+            </div>
+        </header>
+
+        <!-- Header Image -->
+        <header class="header-image">
+            <img src="./img/jeans.jpg" alt="Jeans">
+
+            <div class="header-image-text">
+                <h1 class="big-title">New arrivals</h1>
+                <h1 class="mid-title">Collection 2016</h1>
+                <a href="#jeans" class="btn">Shop Now</a>
+            </div>
+        </header>
+
+        <!-- Items Amount Line -->
+        <div class="items-amount">
+            <p>8 items</p>
+        </div>
+
+        <!-- Product grid -->
+        <div class="product-grid">
+            <div class="grid-item">
+                <img src="./img/jeans1.jpg" alt="Jeans">
+
+                <p>Ripped Skinny Jeans
+                    <br>
+                    <b>$24.99</b>
+                </p>
+            </div>
+
+            <div class="grid-item">
+                <img src="./img/jeans2.jpg" alt="Jeans">
+                <span>New</span>
+
+                <button>Buy now <i class="fa fa-shopping-cart"></i></button>
+
+                <p>Mega Ripped Jeans
+                    <br>
+                    <b>$19.99</b>
+                </p>
+            </div>
+
+            <div class="grid-item">
+                <img src="./img/jeans3.jpg" alt="Jeans">
+
+                <p>Washed Skinny Jeans
+                    <br>
+                    <b>$20.50</b>
+                </p>
+            </div>
+
+            <div class="grid-item">
+                <img src="./img/jeans4.jpg" alt="Jeans">
+
+                <p>Vintage Skinny Jeans
+                    <br>
+                    <b>$19.99</b>
+                </p>
+            </div>
+
+            
+            <div class="grid-item">
+                <img src="./img/jeans5.jpg" alt="Jeans">
+
+                <p>Mega Ripped Jeans
+                    <br>
+                    <b>$19.99</b>
+                </p>
+            </div>
+        
+            <div class="grid-item">
+                <img src="./img/jeans6.jpg" alt="Jeans">
+
+                <p>Washed Skinny Jeans
+                    <br>
+                    <b>$20.50</b>
+                </p>
+            </div>
+
+            <div class="grid-item">
+                <img src="./img/jeans7.jpg" alt="Jeans">
+                <span>Sale</span>
+
+                <button>Buy now <i class="fa fa-shopping-cart"></i></button>
+
+                <p>Vintage Skinny Jeans
+                    <br>
+                    <b>$14.99</b>
+                </p>
+            </div>
+
+        
+            <div class="grid-item">
+                <img src="./img/jeans8.jpg" alt="Jeans">
+    
+                <p>Ripped Skinny Jeans
+                    <br>
+                    <b>$24.99</b>
+                </p>  
+            </div>
+            <!-- End of the product grid -->
+        </div>
+
+        <!-- Subscribe Section -->
+        <div class="subscribe" id="subscribe">
+            <h1>Subscribe</h1>
+            <p>To get special offers and VIP treatment:</p>
+            <input type="email" placeholder="Enter e-mail">
+            <button>Subscribe</button>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-col contact" id="contact">
+                <h4 class="footer-title">Contact</h4>
+                <p class="footer-subtitle">Questions? Go ahead.</p>
+
+                <div class="contact-form">
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                    <input type="text" placeholder="Subject">
+                    <input type="text" placeholder="Message">
+                    <input type="submit" value="Send">
+                </div>
+            </div>
+
+            <div class="footer-col about" id="about">
+                <h4 class="footer-title">About</h4>
+                <div class="about-links">
+                    <a href="#">About us</a>
+                    <a href="#">We're hiring</a>
+                    <a href="#">Support</a>
+                    <a href="#">Find Store</a>
+                    <a href="#">Shipment</a>
+                    <a href="#">Payment</a>
+                    <a href="#">Gift card</a>
+                    <a href="#">Return</a>
+                    <a href="#">Help</a>
+                </div>
+            </div>
+
+            <div class="footer-col col-3">
+                <h4 class="footer-title">Store</h4>
+                <p><i class="fas fa-map-marker-alt"></i> Company Name</p>
+                <p><i class="fa fa-fw fa-phone"></i> 0044123123</p>
+                <p><i class="fa fa-fw fa-envelope"></i>  ex@mail.com</p>
+
+                <h4 class="footer-title">We accept</h4>
+                <p><i class="fab fa-cc-amex"></i> Amex</p>
+                <p><i class="fa fa-fw fa-credit-card"></i> Credit Card</p>
+
+                <div class="footer-icons">
+                    <a href="#"><i class="fab fa-facebook-square"></i>            
+                    </a>
+                    <a href="#"><i class="fab fa-instagram"></i>            
+                    </a>
+                    <a href="#"><i class="fab fa-snapchat"></i>            
+                    </a>
+                    <a href="#"><i class="fab fa-pinterest"></i>            
+                    </a>
+                    <a href="#"><i class="fab fa-twitter"></i>            
+                    </a>
+                    <a href="#"><i class="fab fa-linkedin"></i>            
+                    </a>
+                </div>
+            </div>
+        </footer>
+        
+        <!-- End Page Content -->
+        <div class="end-page">
+            <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" rel="noopener">w3.css</a></p>
+        </div>
+    </main>
+
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
