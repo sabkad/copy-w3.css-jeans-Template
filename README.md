@@ -10,7 +10,7 @@ Link to the version I made:
 https://sabkad.github.io/copy-w3.css-jeans-Template/
 
 Results:
-1. Despite looking simple, this design required relatively more lines of code that the other w3.css templetas did. 
+1. Despite looking simple, this design required relatively more lines of code that other w3.css templetes did. 
    Because of this, the whole code might seem a little messy, as I haven't got yet how to optimise it.
 2. Anyway, this is the first time I made an eCommerce website, and I can't let the world (read: two uninterested followers) not to know about it.
 3. Actually.. there are some mistakes there which I hope to set one day. 
